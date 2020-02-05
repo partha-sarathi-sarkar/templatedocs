@@ -8,6 +8,7 @@ services:
 before_install:
 - npm install -g npm    
 install:
+- ls
 - cd Deploy && npm i
-script:
- - chmod +x deploy.sh && bash deploy.sh
+# script:
+#  - chmod +x deploy.sh && bash deploy.sh
