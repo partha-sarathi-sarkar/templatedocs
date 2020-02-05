@@ -1,0 +1,8 @@
+# Ignore everything
+**
+!articles/
+!templates/
+!Deploy
+!readme.md
+node_modules
+npm-debug.log

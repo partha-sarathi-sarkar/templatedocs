@@ -1,0 +1,13 @@
+language: nodejs 
+dist: trusty
+os: linux
+mono: none
+dotnet: 2.1.4
+services:
+- docker
+before_install:
+- npm install -g npm    
+install:
+- cd Deploy && npm i
+script:
+ - chmod +x deploy.sh && bash deploy.sh

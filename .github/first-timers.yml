@@ -1,0 +1,5 @@
+repository: TutorialDocs
+labels:
+  - pr-check
+template: FirstTimers/FIRST_TIMERS_ISSUE_TEMPLATE.md
+
